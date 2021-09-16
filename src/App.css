@@ -1,0 +1,56 @@
+.heading{
+    background: lightgray;
+    margin: 50px 100px 50px;
+}
+.title{
+    color: rgb(255, 94, 94);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item{
+    height: 100px;
+    margin-bottom: 5px;
+    background: brown;
+    padding: 5px 30px 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.itemName{
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.date,.time{
+    color: rgb(194, 174, 251);
+    text-transform: uppercase;
+}
+.date{
+    margin-left: 30px;
+}
+.time{
+    margin-left: 10px;
+}
+.topSide{
+    display: flex;
+}
+.btnArea{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.addBtn{
+    background: darkgoldenrod;
+    height: 50px;
+    width: 150px;
+    /* border: cadetblue 3px solid; */
+    border-radius: 5px;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 2px 8px black;
+}
+

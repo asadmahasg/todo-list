@@ -1,11 +1,23 @@
 import React from 'react'
+import Style from '../App.css'
 
-function SingleItem(){
+function SingleItem(props){
     
     return(
-        <div className = "Item">
-            <h2 className="itemName">Watch Movie on Thursday</h2>
-            <p className="date">December 25,2021</p>
+        <div className = "item" style={Style.item}>
+            <div className="leftSide">
+                <input type="checkbox" className="chkBox" style={Style.chkBox} />
+            </div>
+            <div className="rightSide">
+                <div className="topSide">
+                    <h2 className="itemName">{props.name}</h2>
+                </div>
+                <div className="topSide">
+                    <p className="date">{props.date}</p>
+                    <p className="time">{props.time}</p>
+                </div>  
+            </div>
+            
         </div>
     );
 }
