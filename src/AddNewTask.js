@@ -4,9 +4,10 @@ import NewScreen from "./NewScreen"
 
 function onClickHandler(e){
     console.log("Btn Clicked");
-    return(
-        <NewScreen />
-    );
+    window.open("./NewScreen","_blank");
+    // return(
+    //     <NewScreen />
+    // );
 }
 function AddNewTask(){
     return(
