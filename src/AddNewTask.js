@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./App.css";
-import NewScreen from "./NewScreen"
+// import NewScreen from "./NewScreen"
 
 function onClickHandler(e){
     console.log("Btn Clicked");
